@@ -1,0 +1,21 @@
+{
+  "name": "shaunapp",
+  "version": "0.0.0",
+  "description": "a simple REST api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Shaun Stummer",
+  "license": "ISC",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "bcrypt": "^0.7.8",
+    "mongojs": "^0.13.0",
+    "morgan": "^1.0.0",
+    "restify": "^2.7.0"
+  }
+}
